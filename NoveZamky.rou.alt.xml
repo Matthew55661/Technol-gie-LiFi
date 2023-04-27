@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-01 10:44:09 by Eclipse SUMO duarouter Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="NoveZamky.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="NoveZamky.rou.xml"/>
+        <alternatives-output value="NoveZamky.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="100"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route  id="alt" edges="-689761965 53848957 6243736#1 53848937 54031153#1 54031153#2 16117212#2 16117212#3 16117212#4 16117212#5 16117212#6 16117212#7 567799791#0 567799791#1 10211064#0 10211064#1 10211064#2 -689762019"/>
+    <vehicle id="0" depart="0.00">
+        
+            <route  probability="0" edges="-689761965 53848957 6243736#1 6243736#2 6243736#3 288424478 16117212#0 16117212#1 16117212#2 16117212#3 16117212#4 16117212#5 16117212#6 16117212#7 567799791#0 567799791#1 10211064#0 10211064#1 10211064#2 -689762019"/>
+        
+    </vehicle>
+    <vehicle id="1" depart="1.00">
+       
+            <route  probability="1" edges="-689761965 53848957 6243736#1 53848937 54031153#1 54031153#2 16117212#2 16117212#3 16117212#4 16117212#5 16117212#6 16117212#7 567799791#0 567799791#1 10211064#0 10211064#1 10211064#2 -689762019"/>
+        
+    </vehicle>
+    <vehicle id="2" depart="2.00">
+       
+            <route  probability="1" edges="-689761965 53848957 6243736#1 53848937 54031153#1 54031153#2 16117212#2 16117212#3 16117212#4 16117212#5 16117212#6 16117212#7 567799791#0 567799791#1 10211064#0 10211064#1 10211064#2 -689762019"/>
+        
+    </vehicle>
+    <vehicle id="3" depart="3.00">
+        
+            <route  probability="1" edges="-689761965 53848957 6243736#1 53848937 54031153#1 54031153#2 16117212#2 16117212#3 16117212#4 16117212#5 16117212#6 16117212#7 567799791#0 567799791#1 10211064#0 10211064#1 10211064#2 -689762019"/>
+        
+    </vehicle>
+    
+    </vehicle>
+</routes>

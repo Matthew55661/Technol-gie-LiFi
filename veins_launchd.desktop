@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=veins_launchd
+Exec=xterm -class veins_launchd -e /home/veins/src/veins/bin/veins_launchd -vv
+Icon=network-transmit-receive-symbolic
+Categories=Science;
+StartupWMClass=veins_launchd
